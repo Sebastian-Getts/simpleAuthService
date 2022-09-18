@@ -1,2 +1,2 @@
 # simpleAuthService
-This is a simple authencation and authorization service, support some functions, such as genereate token, carete roles , association users and roels, etc.
+This is a simple authentication and authorization service, support some functions, such as generate token, create roles , association users and roels, etc.
