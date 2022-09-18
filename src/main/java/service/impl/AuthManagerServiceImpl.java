@@ -36,7 +36,14 @@ public class AuthManagerServiceImpl implements AuthManagerService {
         this.ttl = timeToLive;
         this.chronoUnit = chronoUnit;
         this.tokenTimeMap = new HashMap<>();
-        tokenUserMap = new HashMap<>();
+        this.tokenUserMap = new HashMap<>();
+    }
+
+    public AuthManagerServiceImpl() {
+        this.ttl = 2;
+        this.chronoUnit = ChronoUnit.HOURS;
+        this.tokenTimeMap = new HashMap<>();
+        this.tokenUserMap = new HashMap<>();
     }
 
     @Override
